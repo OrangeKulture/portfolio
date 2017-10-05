@@ -1,0 +1,123 @@
+[
+    {
+        "category": "Web Development",
+        "projectTitle": "Pomodoro Clock",
+        "imageUrl": "assets/project-thumbs/pomodoro_SC.jpg",
+        "projectUrl": "https://codepen.io/counterculture/full/xrLKXJ/",
+        "description": "Using a simple design and jQuery DOM manipulation, we create this Pomodoro Clock to demonstrate the Pomodoro Technique, which consists on work intervals separated by short breaks.",
+        "repo": "https://github.com/OrangeKulture/pomodoro",
+        "techs":["HTML", "CSS", "Bootstrap", "Javascript", "jQuery"]
+    },
+    {
+        "category": "Web Design",
+        "projectTitle": "Landing Pages",
+        "imageUrl": "assets/project-thumbs/proj1_thumb.jpg",
+        "projectUrl": "assets/project-thumbs/proj1.jpg"
+    },
+    {   
+        "category": "Web Development",
+        "projectTitle": "WIKI Viewer",
+        "imageUrl": "assets/project-thumbs/wiki_SC.jpg",
+        "projectUrl": "https://codepen.io/counterculture/full/MmwyMo/",
+        "description": "A fun an interactive UI Design to consume the API's data. AJAX calls are made to wikipedia's end point, so that we can retrieve the first three results for each search.",
+        "repo": "https://github.com/OrangeKulture/wikiViewer",
+        "techs":["HTML", "Animate.CSS", "AJAX", "REST API", "jQuery"]
+    },
+    {
+        "category": "Web Design",
+        "projectTitle": "Banners",
+        "imageUrl": "assets/project-thumbs/banners_thumb.jpg",
+        "projectUrl": "assets/project-thumbs/banners.jpg"
+    },
+    {   
+        "category": "Web Development",
+        "projectTitle": "MEAN Stack",
+        "imageUrl": "assets/project-thumbs/mean_SC.jpg",
+        "projectUrl": "https://meanauth-ja.herokuapp.com",
+        "description": "MEAN stack development to showcase user registration and authentication. Visitors are able to create an account and with the use of sessions, jwt and mongo, we are able to persist the data.",
+        "repo":"https://github.com/OrangeKulture/mean_auth",
+        "techs":["Angular", "NodeJS", "Express", "JWT", "mongoDB"]
+    },
+    {
+        "category": "Web Design",
+        "projectTitle": "Websites",
+        "imageUrl": "assets/project-thumbs/homeFinal1_thumb.jpg",
+        "projectUrl": "assets/project-thumbs/homeFinal1.jpg"
+    },
+    {   
+        "category": "Web Development",
+        "projectTitle": "Spotify Search UI",
+        "imageUrl": "assets/project-thumbs/spoty_SC.jpg",
+        "projectUrl": "https://orangekulture.github.io/spotify/",
+        "description": "With help of Angular JS, we design and implement a User Search Interface for Spotify. Looking up favourite artists will render a list of all albums and tracks available to play within the Spotify app.",
+        "repo": "https://github.com/OrangeKulture/spotify",
+        "disc": "*important: Please download and use a CORS toggle for your browser, as Gitpages won't allow server side logic.",
+        "techs":["Angular", "REST API", "UI/UX Design", "Custom Graphics"]
+    },
+    {   
+        "category": "Web Development",
+        "projectTitle": "DevChat",
+        "imageUrl": "assets/project-thumbs/devchat_SC.jpg",
+        "projectUrl": "https://devchat-ja.herokuapp.com/",
+        "description": "With a backend coded from the ground up, we develop this chat interface with the use of web sockets. Data is persisted using session cookies and it allows for visitors to create new chat rooms.",
+        "repo": "https://github.com/OrangeKulture/devchat",
+        "techs":["NodeJS", "Express", "socket.io", "Facebook Authentication"]
+    },
+    {
+        "category": "Web Design",
+        "projectTitle": "Banners",
+        "imageUrl": "assets/project-thumbs/Banner3_thumb.jpg",
+        "projectUrl": "assets/project-thumbs/Banner3.jpg"
+    },
+    {   
+        "category": "Web Development",
+        "projectTitle": "Tic-Tac-Toe",
+        "imageUrl": "assets/project-thumbs/tictac_SC.jpg",
+        "projectUrl": "https://codepen.io/counterculture/full/NgyGyq/",
+        "description": "Javascript and jQuery for DOM manipulation gives us this version of the well-known Tic-Tac-Toe game. It is not unbeatable in order to make it more fun to play against the computer.",
+        "repo": "https://github.com/OrangeKulture/tictactoe",
+        "techs":["HTML", "Javascript", "jQuery", "Animate.css"]
+    },
+    {
+        "category": "Web Design",
+        "projectTitle": "Landing Pages",
+        "imageUrl": "assets/project-thumbs/design1thumb_thumb.jpg",
+        "projectUrl": "assets/project-thumbs/design1thumb.jpg"
+    },
+    {   
+        "category": "Web Development",
+        "projectTitle": "TWITCH Users' List",
+        "imageUrl": "assets/project-thumbs/twitch_SC.jpg",
+        "projectUrl": "https://s.codepen.io/counterculture/debug/Pmzgzr/nqMwvePZjpGk",
+        "description": "Making a call to Twitch's API, we are able to show this Twitch contact list to display streamers and their current status. Click and you will be taken directly to the user's channel.",
+        "repo": "https://github.com/OrangeKulture/twitch",
+        "techs":["REST API", "Ajax", "Bootstrap", "Photoshop"]
+    },
+    {   
+        "category": "Back-End",
+        "projectTitle": "URL Micro Service",
+        "imageUrl": "assets/project-thumbs/urlmicro_SC.jpg",
+        "projectUrl": "https://urlshortener-ja.herokuapp.com",
+        "description": "Backend project using mongoDB to persist data, this endpoint will let you short any URL and use the short version to access the original website.",
+        "repo": "https://github.com/OrangeKulture/urlshortener",
+        "techs":["Angular", "NodeJS", "Express", "mongoDB"]
+    },
+    {   
+        "category": "Back-End",
+        "projectTitle": "User Agent Info",
+        "imageUrl": "assets/project-thumbs/useragentAPI_SC.jpg",
+        "projectUrl": "https://headerparser-ja.herokuapp.com",
+        "description": "A simple endpoint API configuration to render the visitor's browser, language and preference details.",
+        "repo": "https://github.com/OrangeKulture/headerparser",
+        "techs":["NodeJS", "Express"]
+    },
+    {   
+        "category": "Web Development",
+        "projectTitle": "Simon Game",
+        "imageUrl": "assets/project-thumbs/simon_SC.jpg",
+        "projectUrl": "https://codepen.io/counterculture/full/XaMRpX/",
+        "description": "A web app version of the well-known Simon Game. Custom graphics and audio make this interactive game difficult to beat!",
+        "repo": "https://github.com/OrangeKulture/simonGame",
+        "techs":["HTML", "Javascript", "Photoshop", "Bootstrap"]
+    }
+]
