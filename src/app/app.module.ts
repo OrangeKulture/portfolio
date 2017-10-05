@@ -5,7 +5,6 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
-import { ProjectDetailsComponent } from './components/project-details/project-details.component';
 import { AboutComponent } from './components/about/about.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 
@@ -20,7 +19,6 @@ import {ContentService} from './services/content.service';
   declarations: [
     AppComponent,
     HomeComponent,
-    ProjectDetailsComponent,
     AboutComponent,
     PortfolioComponent,
     NavbarComponent,
