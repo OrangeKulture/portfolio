@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+.viewP {
+    min-height: 95vh;
+}
+
+body {
+    background: url('assets/bg2_large_100.jpg') no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+}
+
+.divide {
+    color: tomato;
+}
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+    body {
+        background-size: cover;
+    }
+
+}

@@ -1,0 +1,39 @@
+<div *ngIf="items">
+  <div class="container viewP text-center">
+    <div class="box">
+      <div class="slider">
+        <div ng2-carouselamos class="slide-wrapper"
+        [items]="items"
+        [width]="getWidth()"
+        [$prev]="prev"
+        [$next]="next"
+        [$item]="item">
+      </div>
+    </div>
+
+    <ng-template #prev>
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </ng-template>
+
+    <ng-template #next>
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </ng-template>
+
+    <ng-template #item let-item>
+      <div class="slides">
+        <h1>{{item.projectTitle}}</h1>
+        <h4>{{item.category}}</h4>
+        <img class="img-responsive img-thumbnail" src="{{item.imageUrl}}" alt="{{item.projectTitle}}"><br>
+        <a href="{{item.projectUrl}}" target="_blank"><h5 class="hvr-float-shadow bl-title">Open Project </h5></a> <span *ngIf="item.repo"> <span class="glyphicon glyphicon-tree-deciduous dev"></span> <a href="{{item.repo}}" target="_blank"><h5 class="hvr-float-shadow bl-title"> View Source Code</h5></a></span>
+        <div *ngIf="item.description">
+          <hr>
+          <p>{{item.description}}</p>
+          <div *ngIf="item.techs">
+            <span *ngFor="let tech of item.techs"><span class="label label-success">{{tech}}</span></span>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+    </div>
+  </div>
+</div>

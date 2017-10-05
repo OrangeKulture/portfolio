@@ -1,0 +1,114 @@
+.wrapper {
+    background: rgba(0,0,0,0.95);
+    padding: 2px;
+    margin: 0 auto;
+    margin-top: 80px;
+    border: 1px solid rgba(255, 92, 5, 0.12);
+    box-shadow: 0 1px 20px 3px rgba(0,0,0,0.6);
+    background: url('../../../assets/patBG.jpg');
+  }
+
+.head {
+    padding: 10px;
+  }
+
+
+h5 {
+    display: inline;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 1.2em;
+    letter-spacing: 1.5px;
+    padding-left: 12px;
+}
+
+h4 {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+}
+
+h1 {
+    margin: 0;
+    margin-top: 5px;
+    font-family: 'Jura', sans-serif;
+    font-size: 3em;
+    letter-spacing: 6px;
+}
+
+.flag {
+    width: 25px;
+    height: 25px;
+    margin-top: -1px;
+}
+
+.prof {
+    margin-left: 20px;
+    width: 134px;
+    height: 132px;
+}
+
+.divide {
+    color: rgba(255, 92, 5, 0.8);
+}
+
+.content {
+    padding: 25px;
+    text-align: justify;
+    max-width: 650px;
+    margin: 0 auto;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.content p {
+    font-size: 1.2em;
+}
+
+.techsPic {
+    width: 538px;
+    height: 55px;
+}
+
+.col-md-4 {
+    padding: 0;
+  }
+
+  @media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 769px) {
+
+    .col-md-4 {
+        padding: 20px;
+      }
+
+      .prof {
+        margin-left: 30%;
+    }
+
+    .info {
+        text-align: center;
+    }
+
+    .techsPic {
+        display: none;
+    }
+
+    .wrapper{
+        margin-bottom: 20px;
+    }
+
+    h4 {
+        font-size: 1.1em;
+        letter-spacing: 0;
+    }
+
+  }
+
+  @media only screen 
+  and (min-device-width : 768px) 
+  and (max-device-width : 1024px) {
+
+    .prof {
+        margin-left: 42%;
+    }
+  
+  }

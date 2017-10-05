@@ -1,0 +1,129 @@
+.wrapper {
+  background: rgba(0,0,0,0.8);
+  padding: 2px;
+  margin: 0 auto;
+  margin-top: 80px;
+  border: 1px solid rgba(255, 92, 5, 0.12);
+  box-shadow: 0 1px 20px 3px rgba(0,0,0,0.6);
+}
+
+h1 {
+  font-family: 'Jura', sans-serif;
+  font-size: 4em;
+  letter-spacing: 8px;
+}
+
+.content {
+  padding: 10px;
+}
+
+hr {
+  height: 1px;
+  width: 80%;
+  background-color: rgba(255, 92, 5, 0.1);
+  border: none;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+}
+
+.infoList {
+  text-align: left;
+  list-style: none;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.socialList {
+  padding-right: 40px;
+  text-align: right;
+  list-style: none;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.infoList li, .socialList li {
+  padding-top: 20px;
+}
+
+.infoName {
+  font-size: 1.2em;
+  padding-left: 10px;
+}
+
+.socialName {
+  font-size: 1.2em;
+  padding-right: 20px;
+}
+
+.socialList a:hover {
+  text-decoration: none;
+  color: rgba(255, 92, 5, 0.6);
+}
+
+.div2 {
+  color: rgba(255, 92, 5, 0.2);
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 769px) {
+
+  .infoName, .socialName {
+    font-size: 0.85em;
+    padding: 3px;
+  }
+
+  .email {
+    font-size: 0.70em;
+  }
+
+  img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .infoList {
+    padding:0;
+  }
+
+  .wrapper {
+    margin-bottom: 20px;
+  }
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1023px) {
+
+  .infoName, .socialName {
+    font-size: 2em;
+    padding: 10px;
+  }
+
+  .email {
+    display: inline-block;
+  }
+
+}
+
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1025px) {
+
+  .col-md-6{
+    min-width: 960px;
+  }
+
+  .infoName, .socialName {
+    font-size: 2em;
+    padding: 10px;
+  }
+
+  .email {
+    display: inline-block;
+  }
+
+
+}
